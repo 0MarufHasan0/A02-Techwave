@@ -31,7 +31,7 @@ background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
 border: none;
 border-radius: 10000px;
 color: #FFFFFF;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 600;
 }
 
@@ -66,7 +66,7 @@ nav>ul{
 nav a{
     text-decoration: none;
     color: #FFFFFF;
-   font-size: 16px;
+   font-size: 1rem;
    font-weight: 500;
    opacity: 0.9;
 }
@@ -76,33 +76,83 @@ nav a{
 }
 
 /* Banner design */
-.banner{
+.banner-bg{
     background-image: url("../assets/hero-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
-    padding: 101px 525px;
     display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   max-width: 5000px;
-   margin: 0 auto;
-   min-height: 760px;
-   text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 760px;
+    text-align: center;
+    padding-bottom: 100px;
 }
-
-.hero-circle{
+.banner{
+    max-width: 550px;
+    height: 528px;
+}
+.banner-img{
     position: relative;
-    display:flex;
-    padding-bottom: 120px ;
 }
 
-.microphone{
+   .microphone{
     position: absolute;
-    left: 47%;
-    top:30%;
-    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+
+.container{
+    padding-top: 50px;
+
+}
+
+.container h1{
+    color: rgba(255, 255, 255, 1);
+   font-size: 3.75rem;
+   padding-bottom: 10px;
+   font-weight: 800;
+}
+
+.container p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 20px;
+}
+.container .btn-spotify, .btn-msg{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .btn-spotify{
+    padding: 12.5px 20px 12.5px 20px;
+
+
+}
+.container .btn-msg{
+  padding: 12.5px 17px 12.5px 17px;
+  border: 2px solid  rgba(0, 255, 136, 1);
+  border-radius: 10000px;
+  background: transparent;
+  color: #00FF88;
+}
+
+.btn-spotify img{
+    padding-right: 10px;
+}
+ .btn-msg img{
+    padding-right: 10px;
 }
 
 
