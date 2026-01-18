@@ -220,7 +220,7 @@ cursor: pointer;
 }
 .about-container h2{
     color: #00FF88;
-    font-size: 48px;
+    font-size: 3rem;
   font-weight: 900;
   line-height: 58px;
 }
@@ -268,11 +268,17 @@ cursor: pointer;
 
 .about-section{
     justify-items: center;
-    gap: 10px;
+  
 }
 .about-container{
     display: grid;
     grid-template-columns: repeat(2,  1fr);
+    gap: 15px;
+}
+.about h2{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 700;
 }
 .break{
     display: none;
