@@ -90,7 +90,21 @@ nav a{
 .banner{
     max-width: 550px;
     height: 528px;
+   
 }
+
+.new{
+position: absolute;
+font-size: 1.25rem;
+border: none;
+background-color: #00FF88;
+left: 63%;
+border-radius: 10000px;
+ padding: 10px 20px;
+
+
+}
+
 .banner-img{
     position: relative;
 }
