@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Shared Style */
+
+
+/* Main Style */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1A0B2E;
+    
+    
+}
+
+nav>ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    
+}
+nav a{
+    text-decoration: none;
+}
