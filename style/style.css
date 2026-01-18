@@ -33,6 +33,7 @@ border-radius: 10000px;
 color: #FFFFFF;
 font-size: 1rem;
 font-weight: 600;
+cursor: pointer;
 }
 
 
@@ -89,7 +90,11 @@ nav a{
 }
 .banner{
     max-width: 550px;
-    height: 528px;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
    
 }
 
@@ -101,13 +106,17 @@ background-color: #00FF88;
 left: 63%;
 border-radius: 10000px;
  padding: 10px 20px;
-
+cursor: pointer;
 
 }
 
 .banner-img{
     position: relative;
+   max-width: 350px;
+   margin: 0 auto;
+    padding-top: 30px;
 }
+
 
    .microphone{
     position: absolute;
@@ -141,6 +150,7 @@ border-radius: 10000px;
     align-items: center;
     padding-top: 30px;
     gap: 20px;
+    cursor: pointer;
 }
 .container .btn-spotify, .btn-msg{
     display: inline-flex;
@@ -184,11 +194,14 @@ border-radius: 10000px;
 /* Responsive Mobile */
 
 @media screen and (max-width:576px){
+
     nav{
         justify-content: space-between;
+        justify-items: center;
         padding-right: 25px;
         padding-left: 15px;
-    }
+    } 
+       
 
     nav>ul{
         display: none;
@@ -196,7 +209,11 @@ border-radius: 10000px;
     .btn-primary{
         display: none;
     }
-.humbarger-menu{
+  .humbarger-menu{
     display: block;
   
+}
+
+
+
 }
