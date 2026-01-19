@@ -237,6 +237,7 @@ cursor: pointer;
 /* Why chose us */
 .benefit{
   background: rgba(35, 14, 61, 1);
+  padding-bottom: 120px;
   
 }
 .benefit h2{
@@ -324,9 +325,87 @@ cursor: pointer;
 }
 
 
+/*  Featured Episodes */
+.featured-ep{
+    background-color:rgba(26, 11, 46, 1);;
+}
+.featured-ep h2{
+   padding-top: 100px;
+   padding-bottom: 100px;
+    color: #FFFFFF;
+    font-style: Bold;
+    font-size: 3rem;
+    font-weight: 700; 
+    text-align: center;
+   
+}
+
+.featured-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 440px;
+    gap: 30px;
+    padding-bottom: 130px;
+    
+}
+  
+.podcast{
+   
+    background: rgba(37, 13, 68, 1);
+     border-radius: 24px;
+     overflow: hidden;
+}
+.podcast h3{
+ color: #FFFFFF;
+ font-style: Bold;
+ font-size: 1.5rem;
+ font-weight: 700;
+  margin-bottom: 20px;
+}
+
+ .podcast p{
+    color: #FFFFFF;
+    font-size: 1rem;
+   font-weight: 400;
+   line-height: 20px;
+   margin-bottom: 10px;
+ }
+
+ .podcast-text{
+    padding: 24px;
+ }
+ .duration-container{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .duration-container span{
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 2px;
+    
+
+ }
+  
+/* .podcast-1{
+    
+}
+
+.podcast-2{
+     border-radius: 24px;
+     overflow: hidden;
+}
 
 
-
+.podcast-3{
+    border-radius: 24px;
+     overflow: hidden;
+} */
 
 
 /* Responsive Mobile */
@@ -372,6 +451,7 @@ cursor: pointer;
 .benefit h2{
     font-size: 2rem;
 }
+/* grid layout */
 .benefit-grid p{
     font-size: 0.9rem;
 }
@@ -398,6 +478,22 @@ cursor: pointer;
         
 
     }
+
+    /* featured-container */
+
+    .featured-container{
+         flex-direction: column;
+         height: auto;
+         gap:17px;
+         padding-bottom: 50px;
+    }
+
+    .featured-ep h2{
+   padding-top: 70px;
+   padding-bottom: 30px;
+    font-size: 2rem;
+   
+}
     
 
 
