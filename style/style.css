@@ -212,6 +212,7 @@ cursor: pointer;
     display: flex;
     border-top: 1px  solid  rgba(255, 255, 255, 0.205) ;
     padding-top: 50px;
+   margin-bottom: 100px;
      justify-content: center;
     align-items: center;
     text-align: center;
@@ -234,59 +235,90 @@ cursor: pointer;
 
 
 /* Why chose us */
+.benefit{
+  background: rgba(35, 14, 61, 1);
+  
+}
 .benefit h2{
+    color: #FFFFFF;
     text-align: center;
-    
+   font-size: 3rem;
+   font-weight: 700;
+    padding: 90px 0px 60px 0px;
 }
 .benefit-grid{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 1200px;
     height: 783px;
     display: grid;
-    gap: 20px;
+    gap:30px;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
+.benefit-grid h3{
+    color: #FFFFFF;
+    padding: 10px 0px 10px  0px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.benefit-grid p{
+ color: #FFFFFF;
+   font-size: 1rem;
+  font-weight: 400;
+ line-height: 30px;
+}
 
  #audio-quality{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
    grid-row: span 2;
-   padding: 150px 20px 0px 20px;
+   background: rgba(53, 17, 101, 0.4);
+   border-radius: 40px;
+   padding: 150px 20px 0px 50px;
    max-width: 380px;
    height: 480px;
 
 }
 
  #mobile-friendly {
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     grid-column: span 2;
-    padding: 50px 20px 0px 20px;
+    background: rgba(53, 17, 101, 0.4);
+    padding: 50px 20px 0px 50px;
+    border-radius: 40px;
      max-width: 790px;
      height: 225px;
 
 }
  #global-community{
-    border: 1px rgb(46, 97, 139);
+    /* border: 1px rgb(46, 97, 139); */
      grid-column: span 2;
-      padding: 50px 20px 0px 20px;
+     background: rgba(53, 17, 101, 0.4);
+     border-radius: 40px;
+      padding: 50px 20px 0px 50px;
      max-width: 790px;
      height: 225px;
 }
 
  #exclusive-interview{
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
      grid-column: span 2;
-      padding: 70px 20px 0px 20px;
+     background: rgba(53, 17, 101, 0.4);
+     border-radius: 40px;
+      padding: 70px 20px 0px 50px;
       max-width: 790px;
      height: 273px;
      
 }
 
  #rich-Resource{
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     grid-column: span 1;
-     padding: 70px 20px 0px 20px;
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+     padding: 70px 20px 0px 50px;
      max-width: 380px;
      height: 273px
 }
@@ -337,6 +369,36 @@ cursor: pointer;
 .break{
     display: none;
 }
+.benefit h2{
+    font-size: 2rem;
+}
+.benefit-grid p{
+    font-size: 0.9rem;
+}
+.benefit-grid{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    height: auto;
+    margin: 0 30px 0 30px;
+   
+}
+ #audio-quality{
+   padding-top: 40px;
+   
+ }
+    #audio-quality,
+    #mobile-friendly, 
+    #global-community, 
+    #exclusive-interview, 
+    #rich-Resource{
+        grid-column: span 1;
+        max-width: 100%; 
+        height: auto;
+         padding-bottom: 50px ;
+        
+
+    }
+    
 
 
 }
