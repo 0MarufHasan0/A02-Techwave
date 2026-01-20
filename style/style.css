@@ -431,7 +431,7 @@ cursor: pointer;
  line-height: 24px;
 }
 
-.host-socail{
+.host-social{
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -439,10 +439,10 @@ cursor: pointer;
     gap: 20px;
     
 }
-.host-socail a{
+.host-social a{
     text-decoration: none;
 }
-.scoail-items{
+.social-items{
     border: 1px solid rgba(83, 60, 114, 1);
      display: flex;
     align-items: center;
@@ -481,7 +481,7 @@ cursor: pointer;
     font-size: 5.5rem;
 }
 
-.footer-socail{
+.footer-social{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -608,18 +608,20 @@ cursor: pointer;
     
 
     .featured-container{
-         flex-direction: column;
+        
+         display: grid;
          height: auto;
-         gap:17px;
-         
+         grid-template-columns: repeat( 1, 1fr);
+         grid-template-rows: auto;
+         justify-items: center;
+         align-items: center;
+         max-width: 100%;
+        
+       
     }
-   
-     .podcast{
-        margin: 0 25px;
-     }
 
     .podcast iframe{
-        width: 360px;
+        
         height: 200px;
     }
 
@@ -656,14 +658,16 @@ cursor: pointer;
         
 
     }
-    .host-socail{
+    .host-social{
        justify-content: center;
     }
 
     /* footer */
     .footer-bg{
-       
+       /* background-size: cover; */
         justify-items: center;
+      /* background-position: center;
+      background-repeat: no-repeat; */
         padding: 40px;
     }
     .footer-contain{
@@ -673,16 +677,19 @@ cursor: pointer;
     .footer-contain h1{
         font-size: 4.5rem;
     }
-    .footer-socail{
-        flex-direction: column;
+    .footer-social{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+      justify-content: center;
         align-items: center;
-        gap: 5px;
+        gap: 2px;
         width: 100%;
     }
     .footer-items{
-        justify-content: flex-start;
-       min-width: 180px;
-       gap: 15px;
+        /* justify-content: flex-start;
+        min-width: 180px; */
+        margin-bottom: 10px;
+       gap: 10px;
        
 
     }
