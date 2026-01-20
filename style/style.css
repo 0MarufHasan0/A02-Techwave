@@ -720,7 +720,7 @@ animation: new 2s ease-in-out infinite;
          grid-template-rows: auto;
          justify-items: center;
          align-items: center;
-         max-width: auto;
+         width: 100% ;
         
        
     }
@@ -781,6 +781,7 @@ animation: new 2s ease-in-out infinite;
     }
     .footer-contain h1{
         font-size: 4.5rem;
+        font-weight: 600;
     }
     .footer-social{
         display: grid;
