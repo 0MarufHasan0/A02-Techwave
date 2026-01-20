@@ -720,7 +720,7 @@ animation: new 2s ease-in-out infinite;
          grid-template-rows: auto;
          justify-items: center;
          align-items: center;
-         max-width: 100%;
+         max-width: auto;
         
        
     }
