@@ -460,7 +460,7 @@ cursor: pointer;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   max-width: 1600px;
+   
    padding: 130px;
   
   
@@ -610,9 +610,17 @@ cursor: pointer;
     .featured-container{
          flex-direction: column;
          height: auto;
-        
          gap:17px;
          
+    }
+   
+     .podcast{
+        margin: 0 25px;
+     }
+
+    .podcast iframe{
+        width: 360px;
+        height: 200px;
     }
 
     .featured-ep h2{
